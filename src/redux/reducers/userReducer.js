@@ -1,6 +1,6 @@
 import {DEL_USER, SAVE_USER} from '../actionTypes';
 
-let init = {token: JSON.parse (localStorage.getItem ('token'))};
+let init = {token: JSON.parse (localStorage.getItem ())};
 
 export const userReducer = (state = init, {type, payload}) => {
   switch (type) {
