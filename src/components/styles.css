@@ -1,0 +1,24 @@
+.icons {
+  font-size: 25px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  width: auto;
+
+  position: fixed;
+  bottom: 100px;
+  left: 40%;
+  /* border-radius: 10px; */
+  /* border: 2px solid red; */
+}
+
+.pagination li {
+  padding: 15px;
+  padding-right: 20px;
+  background-color: #74959a;
+  border: 1px solid #3b4849;
+
+  border-radius: 10px;
+}
